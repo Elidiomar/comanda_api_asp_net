@@ -1,0 +1,2 @@
+CRIAR O ARQUIVO GLOBAL JSON QUE DEFINE A VERSÃO DO SDK
+dotnet new globaljson --sdk-version 2.1.400

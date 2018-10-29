@@ -1,0 +1,15 @@
+Add-Migration Initial -outputDir Migrations -Context ApplicationDbContext
+Update-Database -Context ApplicationDbContext
+Drop-Database -Context ApplicationDbContext
+Remove-Migration -Context ApplicationDbContext
+
+Add-Migration Initial -outputDir Migrations/EventStoreDb -Context EventStoreDBContext
+Update-Database -Context EventStoreDBContext
+Drop-Database -Context EventStoreDBContext
+Remove-Migration -Context EventStoreDBContext
+
+Add-Migration Initial -outputDir Migrations/ComandaDb -Context ComandaDbContext
+Update-Database -Context ComandaDbContext
+Drop-Database -Context ComandaDbContext
+Remove-Migration -Context ComandaDbContext
+

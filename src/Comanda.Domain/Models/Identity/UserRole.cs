@@ -1,0 +1,11 @@
+﻿namespace Comanda.Domain.Models.Identity
+{
+    public partial class UserRole
+    {
+        public string UserId { get; set; }
+        public string RoleId { get; set; }
+
+        public Role Role { get; set; }
+        public UserIdentity UserIdentity { get; set; }
+    }
+}
